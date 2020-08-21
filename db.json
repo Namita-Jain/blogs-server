@@ -1,0 +1,70 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Flutter PlatformView: How to create Widgets from Native Views",
+      "content": "Flutter just recently got a new widget called PlatformView which allows developers to embed Android Views in the flutter widget hierarchy. This opens the door to many new possibilities like fully integrated maps and webviews (https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/widgets/platform_view.dart. In this tutorial, we’re going to go through how to create a TextViewPlugin where we expose a native android TextView as a Flutter Widget.Before we jump into the code some quick things to note are: Currently only supported for Android (should be coming in the next few weeks for iOS Requires Android API level 20 or greater.Embedding Android views is an expensive operation and should be avoided when a Flutter equivalent is possible.The embedded Android view is painted just like any other Flutter widget and transformations apply to it as well.The widget will fill all available space therefore the parent of this object must provide bounded layout constraints.As of now, you need to switch to the flutter master channel in order to follow along. You can do that by running flutter channel master and making sure your new Flutter Project is pointing to the master branch of the flutter sdk.Time to start coding :)",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/700/1*OEh086-elCc212pjnpecWA.png",
+      "bloggerId": 0,
+      "bloggerFirstName": "Namita",
+      "bloggerLastName": "Jain",
+      "favorite_count": 1
+    },
+    {
+      "id": 2,
+      "title": "Flutter navigation — routing made easy",
+      "content": "We all have to do it at some point: navigating from one screen to the next. How do you handle navigation in a Flutter project? Let’s look at basic navigation, how we can keep it maintainable throughout the project and how we pass data to and from a screen in our Flutter app. The Navigator widget handles navigation within our Flutter app. Your screens are basically full-screen widgets, so the Navigator is nothing more than a StatefulWidget handling child widgets in a stack. The stack starts off with the home widget we define in our MaterialApp and depending on how our project looks we then push new screens on top of that. The Navigator's a bit more complex under the hood, but that’s for another time. Don’t hesitate if you’d like to check out the source code though!",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/700/1*6R3sgo_ZuSTlDGffVSMAmw.png",
+      "bloggerId": 0,
+      "bloggerFirstName": "Namita",
+      "bloggerLastName": "Jain",
+      "favorite_count": 0
+    },
+    {
+      "id": 3,
+      "title": "Flutter + Firestore: You may be using it wrong.",
+      "content": "Cloud Firestore can be very powerful when coupled with Flutter, but also tricky for Production-Ready Apps where a good architecture is paramount. Production-Ready Apps need to be robust, so regular code maintenance or feature updates won’t easily bring along unnoticed bugs. The key to achieve it is following best practices. Adopting tried-and-true architectures and sound design patterns, will provide a much more pleasant experience to your users.",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/694/1*bvROFxAkxsW7-67ZAaW_dQ.jpeg",
+      "bloggerId": 0,
+      "bloggerFirstName": "Namita",
+      "bloggerLastName": "Jain",
+      "favorite_count": 0
+    },
+    {
+      "id": 4,
+      "title": "Mixins and Base Classes : A recipe for success in Flutter",
+      "content": "When developing an app with multiple screens, we tend to reuse the same piece of code over many classes: showing error messages, using the same page layout and wiring up some dependencies like for example a Bloc. All this could be solved if were using an abstract base class, however, what if we have a set of features/classes that we want to use on a particular screen but not on others? Since a class can't be a child of more than one class, should we create different base classes, as much as the number of combinations that we have? That's why we have mixins.",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/700/1*p9g4Mi1I2QepzTlzeeRLGQ.png",
+      "bloggerId": 0,
+      "bloggerFirstName": "Namita",
+      "bloggerLastName": "Jain",
+      "favorite_count": 0
+    },
+    {
+      "title": "New Data",
+      "content": "When developing an app with multiple screens, we tend to reuse the same piece of code over many classes: showing error messages, using the same page layout and wiring up some dependencies like for example a Bloc. All this could be solved if were using an abstract base class, however, what if we have a set of features/classes that we want to use on a particular screen but not on others? Since a class can't be a child of more than one class, should we create different base classes, as much as the number of combinations that we have? That's why we have mixins.",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/700/1*p9g4Mi1I2QepzTlzeeRLGQ.png",
+      "bloggerId": 0,
+      "bloggerFirstName": "Namita",
+      "bloggerLastName": "Jain",
+      "id": 5,
+      "favorite_count": 0
+    },
+    {
+      "title": "New Data",
+      "content": "Flutter just recently got a new widget called PlatformView which allows developers to embed Android Views in the flutter widget hierarchy. This opens the door to many new possibilities like fully integrated maps and webviews (https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/widgets/platform_view.dart. In this tutorial, we’re going to go through how to create a TextViewPlugin where we expose a native android TextView as a Flutter Widget.Before we jump into the code some quick things to note are: Currently only supported for Android (should be coming in the next few weeks for iOS Requires Android API level 20 or greater.Embedding Android views is an expensive operation and should be avoided when a Flutter equivalent is possible.The embedded Android view is painted just like any other Flutter widget and transformations apply to it as well.The widget will fill all available space therefore the parent of this object must provide bounded layout constraints.As of now, you need to switch to the flutter master channel in order to follow along. You can do that by running flutter channel master and making sure your new Flutter Project is pointing to the master branch of the flutter sdk.Time to start coding :)",
+      "createdDate": 1598021528,
+      "image": "https://miro.medium.com/max/700/1*OEh086-elCc212pjnpecWA.png",
+      "bloggerId": 1,
+      "bloggerFirstName": "New",
+      "bloggerLastName": "blogger",
+      "id": 6,
+      "favorite_count": 0
+    }
+  ]
+}
