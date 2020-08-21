@@ -20,7 +20,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "json-server": "^0.12.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "8.5.1"
   },
   "bugs": {
     "url": "https://github.com/Namita-Jain/blogs-server/issues"
