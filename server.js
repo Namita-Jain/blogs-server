@@ -36,7 +36,7 @@ server.post('/auth/register', (req, res) => {
   console.log("register endpoint called; request body:");
   console.log(req.body);
   const {email, password, userName} = req.body;
-
+  console.log(isAuthenticated({email, password}) === true);
   if(isAuthenticated({email, password}) === true) {
     const status = 401;
     const message = 'Email and Password already exist';

@@ -1,17 +1,22 @@
-{"users":
-    [
-        {
-            "id":1,
-            "email":"bruno@email.com",
-            "password":"bruno",
-            "userName": "Bruno"
-        },
-        {
-            "id":2,
-            "email":"techie@email.com",
-            "password":"techie",
-            "userName": "Techie"
-
-        }
+{
+    "users":[
+       {
+          "id":1,
+          "email":"bruno@email.com",
+          "password":"bruno",
+          "userName":"Bruno"
+       },
+       {
+          "id":2,
+          "email":"techie@email.com",
+          "password":"techie",
+          "userName":"Techie"
+       },
+       {
+          "id":3,
+          "email":"bruno123@email.com",
+          "password":"bruno",
+          "userName":"Bruno"
+       }
     ]
-}
+ }
