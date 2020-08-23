@@ -7,9 +7,8 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/700/1*OEh086-elCc212pjnpecWA.png",
       "bloggerId": 0,
-      "bloggerFirstName": "Namita",
-      "bloggerLastName": "Jain",
-      "favorite_count": 1
+      "bloggerUserName": "Bruno",
+      "favorite": true
     },
     {
       "id": 2,
@@ -18,9 +17,8 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/700/1*6R3sgo_ZuSTlDGffVSMAmw.png",
       "bloggerId": 0,
-      "bloggerFirstName": "Namita",
-      "bloggerLastName": "Jain",
-      "favorite_count": 0
+      "bloggerUserName": "Bruno",
+      "favorite": false
     },
     {
       "id": 3,
@@ -29,9 +27,8 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/694/1*bvROFxAkxsW7-67ZAaW_dQ.jpeg",
       "bloggerId": 0,
-      "bloggerFirstName": "Namita",
-      "bloggerLastName": "Jain",
-      "favorite_count": 0
+      "bloggerUserName": "Bruno",
+      "favorite": false
     },
     {
       "id": 4,
@@ -40,9 +37,8 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/700/1*p9g4Mi1I2QepzTlzeeRLGQ.png",
       "bloggerId": 0,
-      "bloggerFirstName": "Namita",
-      "bloggerLastName": "Jain",
-      "favorite_count": 0
+      "bloggerUserName": "Bruno",
+      "favorite": false
     },
     {
       "title": "New Data",
@@ -50,10 +46,9 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/700/1*p9g4Mi1I2QepzTlzeeRLGQ.png",
       "bloggerId": 0,
-      "bloggerFirstName": "Namita",
-      "bloggerLastName": "Jain",
+      "bloggerUserName": "Bruno",
       "id": 5,
-      "favorite_count": 0
+      "favorite": false
     },
     {
       "title": "New Data",
@@ -61,15 +56,9 @@
       "createdDate": 1598021528,
       "image": "https://miro.medium.com/max/700/1*OEh086-elCc212pjnpecWA.png",
       "bloggerId": 1,
-      "bloggerFirstName": "New",
-      "bloggerLastName": "blogger",
+      "bloggerUserName": "Bruno",
       "id": 6,
-      "favorite_count": 0
-    },
-    {
-      "email": "bruno@email.com",
-      "password": "bruno",
-      "id": 7
+      "favorite": false
     }
   ]
 }
