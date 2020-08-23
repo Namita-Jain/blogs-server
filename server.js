@@ -78,7 +78,6 @@ server.post('/auth/register', (req, res) => {
 
 // Login to one of the users from ./users.json
 server.post('/auth/login', (req, res) => {
-  console.log("login endpoint called; request body:");
   console.log(req.body);
   const {email, password} = req.body;
   if (isAuthenticated({email, password}) === false) {
@@ -93,7 +92,6 @@ server.post('/auth/login', (req, res) => {
 })
 
 server.use(/^(?!\/auth).*$/,  (req, res, next) => {
-  console.log('req-------------', req);
   if (req.headers.authorization === undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
     const status = 401
     const message = 'Error in authorization format'

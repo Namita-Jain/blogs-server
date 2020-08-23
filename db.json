@@ -65,6 +65,11 @@
       "bloggerLastName": "blogger",
       "id": 6,
       "favorite_count": 0
+    },
+    {
+      "email": "bruno@email.com",
+      "password": "bruno",
+      "id": 7
     }
   ]
 }
