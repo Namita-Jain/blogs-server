@@ -8,7 +8,29 @@
       "image": "https://miro.medium.com/max/700/1*OEh086-elCc212pjnpecWA.png",
       "bloggerId": 0,
       "bloggerUserName": "Bruno",
-      "favorite": true
+      "favorite": true,
+      "comments": [
+        {
+          "id": 1,
+          "text": "This the first Comment Ever!",
+          "image": "https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg",
+          "createdAt": 1598021528,
+          "author": "Chip"
+        },
+        {
+          "id": 2,
+          "text": "This the second Comment Ever!",
+          "image": "https://www.bemanistyle.com/wp-content/uploads/2018/01/Linux-Avatar-300px.png",
+          "createdAt": 1598021528,
+          "author": "Bruno"
+        },
+        {
+          "text": "Hello New Tech Comment",
+          "author": "Bruno",
+          "image": "https://www.bemanistyle.com/wp-content/uploads/2018/01/Linux-Avatar-300px.png",
+          "createdAt": 1598956574
+        }
+      ]
     },
     {
       "id": 2,
@@ -18,7 +40,16 @@
       "image": "https://miro.medium.com/max/700/1*6R3sgo_ZuSTlDGffVSMAmw.png",
       "bloggerId": 0,
       "bloggerUserName": "Bruno",
-      "favorite": false
+      "favorite": false,
+      "comments": [
+        {
+          "id": 1,
+          "text": "This the Second Comment Ever!",
+          "image": "https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg",
+          "createdAt": 1598021528,
+          "author": "Chip"
+        }
+      ]
     },
     {
       "id": 3,
@@ -28,7 +59,8 @@
       "image": "https://miro.medium.com/max/694/1*bvROFxAkxsW7-67ZAaW_dQ.jpeg",
       "bloggerId": 0,
       "bloggerUserName": "Bruno",
-      "favorite": false
+      "favorite": false,
+      "comments": []
     },
     {
       "id": 4,
@@ -38,7 +70,8 @@
       "image": "https://miro.medium.com/max/700/1*p9g4Mi1I2QepzTlzeeRLGQ.png",
       "bloggerId": 0,
       "bloggerUserName": "Bruno",
-      "favorite": false
+      "favorite": false,
+      "comments": []
     },
     {
       "title": "New Data",
@@ -48,7 +81,8 @@
       "bloggerId": 0,
       "bloggerUserName": "Bruno",
       "id": 5,
-      "favorite": false
+      "favorite": false,
+      "comments": []
     },
     {
       "title": "New Data",
@@ -58,7 +92,8 @@
       "bloggerId": 1,
       "bloggerUserName": "Bruno",
       "id": 6,
-      "favorite": false
+      "favorite": false,
+      "comments": []
     }
   ]
 }
